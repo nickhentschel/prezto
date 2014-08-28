@@ -13,5 +13,6 @@ fi
 # Customize to your needs...
 
 alias vim="stty stop '' -ixoff ; vim"
+export EDITOR=vim
 export PROMPT_COMMAND="history -a; history -n"
 export PATH=/usr/local:$PATH
