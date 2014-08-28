@@ -14,5 +14,4 @@ fi
 
 alias vim="stty stop '' -ixoff ; vim"
 export PROMPT_COMMAND="history -a; history -n"
-source ~/ls-colors.zsh
 export PATH=/usr/local:$PATH
